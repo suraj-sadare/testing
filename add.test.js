@@ -12,6 +12,6 @@ test('It should add two string',()=>{
 test('It should be a proper addition with defferent sign',()=>{
     expect(sum(-3,+4)).toBe(1)
 })
-test('It should be a proper addition',()=>{
-    expect(sum(-3,+4)).toBe(1)
+test('It should return string as result',()=>{
+    expect(sum(3,'a')).toBe('3a')
 })
